@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: postgres:latest
-    containter_name: my-db
+    container_name: my-db
     ports:
       - 54321:5432
     environment:
