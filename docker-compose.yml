@@ -9,7 +9,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_USER=${POSTGRES_USER}
-    pg-admin:
+  pg-admin:
     image: dpage/pgadmin4:latest
     container_name: pg-admin-4
     ports:
