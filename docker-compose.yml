@@ -19,7 +19,7 @@ services:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: naskio/strapi:latest
+    image: jadsada/my-app:1.0
     container_name: my-app-4
     ports:
       - 1337:1337
